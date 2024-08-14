@@ -1,0 +1,50 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hii", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "python", "in", "class"],
+    "bot_response": "Start by attending lecture.",
+    "required_words": ["learn", "python"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["marks", "how", "can", "I", "get"],
+    "bot_response": "By creating time table to learn this subject and stricly follow it for getting good marks.",
+    "required_words": ["get", "i", "marks"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["does", "ma'am", "project", "likes", "my"],
+    "bot_response": "obviously, you doing your best bro...and you tried to learn something",
+    "required_words": ["my", "project", "likes"]
+  },
+  {
+    "response_type": "command",
+    "user_input": ["get", "python", "subject", "marks", "my"],
+    "bot_response": "sure, you got 39 marks in python in MSE...Congratulations!",
+    "required_words": ["my", "python", "marks"]
+  }
+]
