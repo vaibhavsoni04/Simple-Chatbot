@@ -42,9 +42,33 @@
     "required_words": ["my", "project", "likes"]
   },
   {
-    "response_type": "command",
-    "user_input": ["get", "python", "subject", "marks", "my"],
-    "bot_response": "sure, you got 39 marks in python in MSE...Congratulations!",
-    "required_words": ["my", "python", "marks"]
+    "response_type": "greeting",
+    "user_input": ["good", "morning"],
+    "bot_response": "Good morning! Hope you have a great day!",
+    "required_words": ["good", "morning"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["what", "is", "your", "name"],
+    "bot_response": "I'm your friendly chatbot, here to assist you!",
+    "required_words": ["your", "name"]
+  },
+  {
+    "response_type": "statement",
+    "user_input": ["I", "am", "feeling", "sad"],
+    "bot_response": "I'm sorry to hear that. I'm here if you need to talk.",
+    "required_words": ["feeling", "sad"]
+  },
+  {
+    "response_type": "statement",
+    "user_input": ["I", "passed", "the", "exam"],
+    "bot_response": "Congratulations! I knew you could do it!",
+    "required_words": ["passed", "exam"]
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["good", "night"],
+    "bot_response": "Good night! Sleep tight.",
+    "required_words": ["good", "night"]
   }
 ]
