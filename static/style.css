@@ -30,6 +30,9 @@
         }
 
         .user {
+            max-width: 50%;
+            text-align: end;
+            margin: 5px 0;
             border: 1px;
             border-radius: 16px;
             background-color: lightgray;
@@ -38,6 +41,9 @@
             color: black;
         }
         .bot {
+            max-width: 50%;
+            text-align: start;
+            margin: 5px 0;
             border: 1px;
             border-radius: 16px;
             background-color: lightgray;
