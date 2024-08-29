@@ -47,4 +47,18 @@
             messageDiv.textContent = message;
             conversation.appendChild(messageDiv);
             conversation.scrollTop = conversation.scrollHeight;
+            typeWriter(messageDiv, message, 30);
+        }
+
+        function typeWriter(element, text, speed) {
+            let i = 0;
+            element.innerHTML = '';
+            function typing() {
+                if (i < text.length) {
+                    element.innerHTML += text.charAt(i);
+                    i++;
+                    setTimeout(typing, speed);
+                }
+            }
+            typing();
         }
